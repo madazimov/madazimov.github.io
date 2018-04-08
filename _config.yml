@@ -12,7 +12,7 @@
 
 # jekyll-paginate configuration
 
-
+baseurl: '/'
 paginate:            5
 
 
