@@ -11,7 +11,10 @@
 #   sort_reverse: true
 
 # jekyll-paginate configuration
+
+baseurl: ""
 paginate:            5
+
 
 # Build settings
 markdown:            kramdown
@@ -23,6 +26,9 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 title:		           'Двоичные мысли'
 description:	       'интерпретация'
 author:              'Aziz Madazimov'
+
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
