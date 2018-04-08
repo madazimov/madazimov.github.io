@@ -562,3 +562,11 @@ th, td {
 .post-date {
 	display: inline-block;
 }
+.text-center {
+	text-align: center;
+}
+.frown-o:before {
+	content:"\f119";
+	font-family: FontAwesome;
+	font-size: 20em;
+}
