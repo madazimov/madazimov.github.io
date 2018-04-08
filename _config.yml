@@ -15,6 +15,9 @@
 baseurl: ""
 paginate:            5
 
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
 
 # Build settings
 markdown:            kramdown
