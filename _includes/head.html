@@ -36,10 +36,10 @@
   
   <!-- Add Facebook Open Graph -->
   <meta content="{{ site.title }}" property="og:site_name">
-{% if page.title %}
-  <meta content="{{ page.title }}" property="og:title">
-{% else %}
+{% if page.title == "Home" %}
   <meta content="{{ site.title }}" property="og:title">
+{% else %}
+  <meta content="{{ page.title }}" property="og:title">
 {% endif %}
 {% if page.title %}
   <meta content="article" property="og:type">
