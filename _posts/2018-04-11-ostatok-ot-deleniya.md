@@ -46,7 +46,7 @@ hours = int(n//60%24)
 ```python
 n = int(input()) 
 hours = int(n//60%24)
-minutes = init(n%60)
+minutes = int(n%60)
 print(hours, minutes)
 ```   
 Кому интересно, задачки я решаю [тут](http://pythontutor.ru "Питонтьютор")
